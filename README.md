@@ -145,7 +145,7 @@ Go to a main VS Code window and hit `Ctrl+comma`. In the top-right, click the `{
 
 Click in the right-hand pane. Delete everything. Paste this in and then save:
 
-```json
+```js
 {
     // Workbench and Editor
     "workbench.startupEditor": "newUntitledFile",
