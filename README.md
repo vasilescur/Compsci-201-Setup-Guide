@@ -145,9 +145,9 @@ Go to a main VS Code window and hit `Ctrl+comma`. In the top-right, click the `{
 
 Click in the right-hand pane. Delete everything. Paste this in and then save:
 
-```js
+```json
 {
-    /* Workbench and Editor */
+    // Workbench and Editor
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
 
@@ -160,50 +160,50 @@ Click in the right-hand pane. Delete everything. Paste this in and then save:
     "editor.highlightActiveIndentGuide": true,
     "explorer.confirmDragAndDrop": false,
 
-    /* Files */
+    // Files
     "files.autoSaveDelay": 3000,
     "files.autoSave": "afterDelay",
 
     "files.associations": {
         "*.md": "markdown",
         "*.html": "html",
-        /* ".zsh_aliases": "shellscript", */
-        /* "*.asm": "mips" */
+        //".zsh_aliases": "shellscript",
+        //"*.asm": "mips"
     },
 
-    /* Python */
+    // Python
 
-    /* "python.pythonPath": "/usr/bin/python3",
-    "python.linting.pylintPath": "/usr/local/bin/pylint",
-    "python.linting.pep8Path": "/usr/local/bin/pep8",
-    "python.formatting.autopep8Path": "/usr/local/bin/autopep8", */
+    //"python.pythonPath": "/usr/bin/python3",
+    //"python.linting.pylintPath": "/usr/local/bin/pylint",
+    //"python.linting.pep8Path": "/usr/local/bin/pep8",
+    //"python.formatting.autopep8Path": "/usr/local/bin/autopep8",
 
-    /* Git */
+    // Git
     "git.enableSmartCommit": true,
     "git.autofetch": true,
 
-    /* Integrated shell (Platform-dependent) */
-    /* "terminal.integrated.shell.linux": "bash", */
+    // Integrated shell (Platform-dependent)
+    //"terminal.integrated.shell.linux": "bash",
     "terminal.integrated.shell.osx": "bash",
-    /* "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe", */
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     
-    /* Themes and Colors */
+    // Themes and Colors
     "workbench.colorTheme": "Nord",
-    /* "workbench.iconTheme": "eq-material-theme-icons-ocean", */
+    //"workbench.iconTheme": "eq-material-theme-icons-ocean",
 
     "editor.tokenColorCustomizations": {
         "[Nord]": {
-            "comments": "#697d8b"   /* Make comments a bit brighter */
+            "comments": "#697d8b"   // Make comments a bit brighter
         }
     },
 
-    /* Extension Settings */
+    // Extension Settings
 
-    /* SmoothType */
-    /* "smoothtype.duration": 80,
-    "smoothtype.autoReload": true, */
+    // SmoothType
+    //"smoothtype.duration": 80,
+    //"smoothtype.autoReload": true,
 
-    /* Java */
+    // Java
     "java.errors.incompleteClasspath.severity": "ignore",
 }
 ```
