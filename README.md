@@ -85,9 +85,7 @@ All that junk basically made it so Windows can see java from a terminal window.
 
 ## Installing the IDE
 
-**Eclipse is trash. Don't use Eclipse.** It's old and ugly and crashes a lot.
-
-We're gonna use a much newer, better editor called Visual Studio Code. **IMPORTANT! Visual Studio Code and Visual Studio are two very different things.**
+Eclipse is old and ugly and crashes a lot, so instead, we're gonna use a much newer, better editor called Visual Studio Code. **IMPORTANT! Visual Studio Code and Visual Studio are two very different things.**
 
 Install the correct version for your computer from [here](https://code.visualstudio.com/download).
 
